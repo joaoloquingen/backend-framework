@@ -1,0 +1,30 @@
+class Filmes_em_Cartaz(
+    val genres: List<genres>,
+    val productionproduction_companies:List<production_companies>,
+    val productionCountries: List<production_countries>,
+    val spokenLanguages: String,
+
+    val adult:Boolean,
+    val backdrop_path:String,
+    val belongs_to_collection:String,
+    val budget:Int,
+    val homepage:String,
+    val id:Int,
+    val imdb_id:Int,
+    val original_language:String,
+    val original_title:String,
+    val overview:String,
+    val  popularity:Double,
+    val poster_path:String,
+
+    val release_date:String,
+    val revenue:Double,
+    val runtime:Int,
+
+    val status:String,
+    val tagline:String,
+    val title:String,
+    val video:Boolean,
+    val vote_average:Double,
+    val vote_count:Int,
+)
